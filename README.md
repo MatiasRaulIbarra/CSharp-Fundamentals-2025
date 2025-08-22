@@ -8,4 +8,5 @@ This repository contains my daily practice and exercises for my intensive C# and
 
 * **Week 1: C# & OOP Fundamentals**
     * **Day 1 (Aug 21):** Project setup, variables, data types, and Console I/O.
+    * **Day 2(Aug 22):**  Introductio to POO(Classes,Objects & Methods)
     
