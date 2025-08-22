@@ -1,36 +1,18 @@
-﻿// Simple practice with data types and handling manual user input.
+﻿using CSharpFundamentals;
+/*
 
-DateTime date = DateTime.Now;
-Console.WriteLine("Hello what is your name?");
-string name = Console.ReadLine();
+//Implicit casting
+int value = 200;
+double total = value;
 
-Console.WriteLine($"Nice to meet you {name} ");
-Console.WriteLine($"How old are you {name} ?");
-int age = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("It's a perfect age");
+Console.WriteLine("Implicit:"+total);
 
-Console.WriteLine($"It's a beautiful day {date:dd/MM}");
-Console.WriteLine("would you like to know the current year? yes/not");
-string answer = Console.ReadLine();
-if (answer.ToLower() == "yes")
-{
-    Console.WriteLine($"The year is {date: yyyy} ");
-}
-else
-{
-    Console.WriteLine("Okay thank you ");
-}
+
+//Explicit casting 
+double price = 500.23;
+double discount = (int)price;
+Console.WriteLine("Explicit:" +  discount);*/
 
 
 
-// Using a verbatim string (@) for cleaner multi-line output without repeating code.
-
-string name2 = "Matt";
-int age2 = 00;
-DateTime date2 = DateTime.Now;
-
-Console.WriteLine(@$"Nice to meet you  {name2}.
- your age {age2} is excellet
- The current date  is {date2: dd/MM/yyyy}
- Have a good day {name2}.
-");
+Day2_OperatorsAndMethods.Ejecutar();
