@@ -15,4 +15,6 @@ Console.WriteLine("Explicit:" +  discount);*/
 
 
 
-Day2_OperatorsAndMethods.Ejecutar();
+//Day3_Conditionals.LoggingCheck();
+//Day3_Conditionals.EvaluateGrade();
+Day3_Conditionals.CreditEvaluator();
