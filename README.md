@@ -10,5 +10,5 @@ This repository contains my daily practice and exercises for my intensive C# and
     * **Day 1 (Aug 21):** Project setup, variables, data types, and Console I/O.
     * **Day 2(Aug 22):**  Introduction to OOP(Classes,Objects & Methods).
     * **Day 3 (Aug 25):** Conditionals (`if/else`), Guard Clauses, and User Input Validation.
-      
+    * **Day 4 (Aug 26):** Control Flow with the `switch` statement.
     
