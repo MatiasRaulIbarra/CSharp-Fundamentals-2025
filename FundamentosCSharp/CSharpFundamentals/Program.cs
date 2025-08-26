@@ -17,4 +17,6 @@ Console.WriteLine("Explicit:" +  discount);*/
 
 //Day3_Conditionals.LoggingCheck();
 //Day3_Conditionals.EvaluateGrade();
-Day3_Conditionals.CreditEvaluator();
+//Day3_Conditionals.CreditEvaluator();
+
+Day4_SwitchStatement.EvaluateSeasonsSouthernHemisphere();
