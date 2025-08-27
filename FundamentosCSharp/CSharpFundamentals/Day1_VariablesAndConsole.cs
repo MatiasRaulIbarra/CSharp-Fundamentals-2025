@@ -1,7 +1,7 @@
 ﻿
 namespace CSharpFundamentals
 {
-    public static  class Day1VariablesAndConsole
+    public static  class Day1_VariablesAndConsole
     {
         public  static  void Ejecutar()
         {
@@ -32,7 +32,7 @@ namespace CSharpFundamentals
 
             // Using a verbatim string (@) for cleaner multi-line output without repeating code.
 
-            string name2 = "Matt";
+           /* string name2 = "Matt";
             int age2 = 00;
             DateTime date2 = DateTime.Now;
 
@@ -40,7 +40,7 @@ namespace CSharpFundamentals
                your age {age2} is excellet
                The current date  is {date2: dd/MM/yyyy}
                Have a good day {name2}.
-            ");
+            ");*/
 
         }
     }
