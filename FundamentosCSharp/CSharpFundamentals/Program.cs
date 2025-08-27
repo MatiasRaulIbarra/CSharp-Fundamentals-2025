@@ -19,4 +19,8 @@ Console.WriteLine("Explicit:" +  discount);*/
 //Day3_Conditionals.EvaluateGrade();
 //Day3_Conditionals.CreditEvaluator();
 
-Day4_SwitchStatement.EvaluateSeasonsSouthernHemisphere();
+//Day4_SwitchStatement.EvaluateSeasonsSouthernHemisphere();
+//Day5_WhileLoop.FibonacciSequence();
+//Day5_WhileLoop.GuessTheNumber();
+//Day5_WhileLoop.InputValidator();
+Day5_WhileLoop.SimulatorCashMachine_ATM();
