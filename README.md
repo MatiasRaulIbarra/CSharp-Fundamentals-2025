@@ -12,4 +12,5 @@ This repository contains my daily practice and exercises for my intensive C# and
     * **Day 3 (Aug 25):** Conditionals (`if/else`), Guard Clauses, and User Input Validation.
     * **Day 4 (Aug 26):** Control Flow with the `switch` statement.
     * **Day 5 (Aug 27):** Control Flow with while loops and the infinite validation loop pattern
+    * **Day 6 (Aug 28):** Control Flow with `do-while` loops.
     
