@@ -7,15 +7,18 @@ while (true)
     Console.WriteLine("--- MY C# PRACTICE LAB ---");
     Console.WriteLine("--------------------------");
     Console.WriteLine("Week 1: Fundamentals & Logic");
-    Console.WriteLine("1. Day 1:program that requests data from the user via console");
-    Console.WriteLine("2. Day 2:program that determines whether a book was borrowed or returned");
-    Console.WriteLine("3. Day 3: Grade Evaluator");
-    Console.WriteLine("4. Day 3: Login & Credit Simulator");
-    Console.WriteLine("5. Day 4: Day of the Week Evaluator (switch)");
-    Console.WriteLine("6. Day 4: Season Detector (switch)");
-    Console.WriteLine("7. Day 5: Guess the Number (while)");
-    Console.WriteLine("8. Day 6: Persistent Menu (do-while)");
-    Console.WriteLine("9. Day 6: Cumulative Sum (do-while)");
+    Console.WriteLine("1.  Day 1:program that requests data from the user via console");
+    Console.WriteLine("2.  Day 2:program that determines whether a book was borrowed or returned");
+    Console.WriteLine("3.  Day 3:Grade Evaluator");
+    Console.WriteLine("4.  Day 3:Login & Credit Simulator");
+    Console.WriteLine("5.  Day 4:Day of the Week Evaluator (switch)");
+    Console.WriteLine("6.  Day 4:Season Detector (switch)");
+    Console.WriteLine("7.  Day 5:Guess the Number (while)");
+    Console.WriteLine("8.  Day 6:Persistent Menu (do-while)");
+    Console.WriteLine("9.  Day 6:Cumulative Sum (do-while)");
+    Console.WriteLine("10. Day 7:Factorial Calculator(For)");
+    Console.WriteLine("11. Day 7:Vowel Counter(For)");
+    Console.WriteLine("12. Day 7:Vowel Counter(Foreach)");
     Console.WriteLine("--------------------------");
     Console.WriteLine("0. Exit Program");
     Console.WriteLine("--------------------------");
@@ -56,6 +59,12 @@ while (true)
                 break;
             case 9:
                 Day6_DoWhileLoop.CumulativeSum();
+                break;
+            case 10:
+                Day7_ForLoop.FactorialCalculator();
+                break;
+            case 11:
+                Day7_ForLoop.VowelCounter();
                 break;
             case 0:
                 Console.WriteLine("Exiting the lab. Goodbye!");
