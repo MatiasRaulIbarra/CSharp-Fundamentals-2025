@@ -19,6 +19,8 @@ while (true)
     Console.WriteLine("10. Day 7:Factorial Calculator(For)");
     Console.WriteLine("11. Day 7:Vowel Counter(For)");
     Console.WriteLine("12. Day 7:Vowel Counter(Foreach)");
+    Console.WriteLine("13. Day 8: User Profile(Constructors & encasulaption)");
+    Console.WriteLine("14. Day 8: Smart Thermostat (Constructors & encasulaption)");
     Console.WriteLine("--------------------------");
     Console.WriteLine("0. Exit Program");
     Console.WriteLine("--------------------------");
@@ -65,6 +67,15 @@ while (true)
                 break;
             case 11:
                 Day7_ForLoop.VowelCounter();
+                break;
+            case 12:
+                Day7_ForLoop.VowelCounterForEach();
+                break;
+            case 13:
+                Day8_ConstructorsAndEncapsulation.ExecuteUserProfile(); 
+                break;
+            case 14:
+                Day8_ConstructorsAndEncapsulation.ExecuteThermostat();
                 break;
             case 0:
                 Console.WriteLine("Exiting the lab. Goodbye!");
