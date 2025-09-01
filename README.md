@@ -14,4 +14,6 @@ This repository contains my daily practice and exercises for my intensive C# and
     * **Day 5 (Aug 27):** Control Flow with while loops and the infinite validation loop pattern
     * **Day 6 (Aug 28):** Control Flow with `do-while` loops.
     * **Day 7 (Aug 29):** Control Flow with `for` and `foreach` loops.
-    
+
+* **Week 2: Deep Dive into OOP
+    *  **Day 8 (Sep 1):** Constructors & Encapsulation
