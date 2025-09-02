@@ -21,6 +21,8 @@ while (true)
     Console.WriteLine("12. Day 7:Vowel Counter(Foreach)");
     Console.WriteLine("13. Day 8: User Profile(Constructors & encasulaption)");
     Console.WriteLine("14. Day 8: Smart Thermostat (Constructors & encasulaption)");
+    Console.WriteLine("15. Day 9: Bank Account (Inheritence)");
+    Console.WriteLine("16. Day 9: Employee exercise(Inherintence)");
     Console.WriteLine("--------------------------");
     Console.WriteLine("0. Exit Program");
     Console.WriteLine("--------------------------");
@@ -76,6 +78,12 @@ while (true)
                 break;
             case 14:
                 Day8_ConstructorsAndEncapsulation.ExecuteThermostat();
+                break;
+            case 15:
+                Day9_Inheritance.ExecuteBankAccountExercise();
+                break;
+            case 16:
+                Day9_Inheritance.ExecuteEmployee();
                 break;
             case 0:
                 Console.WriteLine("Exiting the lab. Goodbye!");
