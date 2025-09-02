@@ -17,3 +17,4 @@ This repository contains my daily practice and exercises for my intensive C# and
 
 * **Week 2: Deep Dive into OOP
     *  **Day 8 (Sep 1):** Constructors & Encapsulation
+    *  **Day 9 (Sep 2):**Inheritance & Polymorphism.
