@@ -19,10 +19,12 @@ while (true)
     Console.WriteLine("10. Day 7:Factorial Calculator(For)");
     Console.WriteLine("11. Day 7:Vowel Counter(For)");
     Console.WriteLine("12. Day 7:Vowel Counter(Foreach)");
-    Console.WriteLine("13. Day 8: User Profile(Constructors & encasulaption)");
-    Console.WriteLine("14. Day 8: Smart Thermostat (Constructors & encasulaption)");
-    Console.WriteLine("15. Day 9: Bank Account (Inheritence)");
-    Console.WriteLine("16. Day 9: Employee exercise(Inherintence)");
+    Console.WriteLine("13. Day 8:User Profile(Constructors & encasulaption)");
+    Console.WriteLine("14. Day 8:Smart Thermostat (Constructors & encasulaption)");
+    Console.WriteLine("15. Day 9:Bank Account (Inheritence)");
+    Console.WriteLine("16. Day 9:Employee exercise(Inherintence)");
+    Console.WriteLine("17. Day 10:Animal Sound (Polymorphism)");
+    Console.WriteLine("18. Day 10: Payment System(Polymorphism)");    
     Console.WriteLine("--------------------------");
     Console.WriteLine("0. Exit Program");
     Console.WriteLine("--------------------------");
@@ -84,6 +86,12 @@ while (true)
                 break;
             case 16:
                 Day9_Inheritance.ExecuteEmployee();
+                break;
+            case 17:
+                Day10_Polymorphism.ExecuteAnimalSound();
+                break;
+            case 18:
+                Day10_Polymorphism.ExecutePaymentSystem();
                 break;
             case 0:
                 Console.WriteLine("Exiting the lab. Goodbye!");
