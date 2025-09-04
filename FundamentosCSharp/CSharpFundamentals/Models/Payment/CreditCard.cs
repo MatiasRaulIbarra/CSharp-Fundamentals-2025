@@ -1,4 +1,4 @@
-﻿namespace CSharpFundamentals.Models
+﻿namespace CSharpFundamentals.Models.Payment
 {
     public class CreditCard : PaymentSystem
     {
@@ -9,7 +9,7 @@
             {
                 Console.WriteLine("Processing payment via Credit Card...");
             }
-           
+
         }
     }
 }

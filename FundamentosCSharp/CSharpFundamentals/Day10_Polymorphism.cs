@@ -1,4 +1,5 @@
 ﻿using CSharpFundamentals.Models;
+using CSharpFundamentals.Models.Payment;
 
 namespace CSharpFundamentals
 {

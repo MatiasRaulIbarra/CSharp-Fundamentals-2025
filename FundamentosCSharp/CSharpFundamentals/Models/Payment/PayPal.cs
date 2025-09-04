@@ -1,4 +1,4 @@
-﻿namespace CSharpFundamentals.Models
+﻿namespace CSharpFundamentals.Models.Payment
 {
     public class PayPal : PaymentSystem
     {
