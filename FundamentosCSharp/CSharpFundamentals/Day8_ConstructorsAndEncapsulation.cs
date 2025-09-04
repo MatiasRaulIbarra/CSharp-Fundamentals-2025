@@ -1,4 +1,5 @@
-﻿using CSharpFundamentals.Models;
+﻿using CSharpFundamentals.Core.Models.Thermostat;
+using CSharpFundamentals.Core.Models.UserProfile;
 
 namespace CSharpFundamentals
 {

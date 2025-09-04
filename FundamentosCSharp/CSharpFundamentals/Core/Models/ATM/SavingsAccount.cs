@@ -1,9 +1,8 @@
-﻿
-namespace CSharpFundamentals.Models
+﻿namespace CSharpFundamentals.Core.Models.ATM
 {
-    public  class SavingsAccount : BankAccount
+    public class SavingsAccount : BankAccount
     {
-        public decimal InterestRate {  get; set; }
+        public decimal InterestRate { get; set; }
 
 
         public SavingsAccount(decimal balance, decimal interestRate)

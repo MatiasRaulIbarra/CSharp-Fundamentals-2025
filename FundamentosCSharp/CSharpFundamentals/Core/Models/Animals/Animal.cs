@@ -1,4 +1,4 @@
-﻿namespace CSharpFundamentals.Models
+﻿namespace CSharpFundamentals.Core.Models.Animals
 {
     public class Animal
     {

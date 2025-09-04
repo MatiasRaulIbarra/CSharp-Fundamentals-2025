@@ -1,4 +1,5 @@
-﻿using CSharpFundamentals.Models;
+﻿using CSharpFundamentals.Core.Models.ATM;
+using CSharpFundamentals.Core.Models.User;
 
 namespace CSharpFundamentals
 {

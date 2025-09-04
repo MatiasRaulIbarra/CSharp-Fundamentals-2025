@@ -1,6 +1,6 @@
-﻿namespace CSharpFundamentals.Models.Payment
+﻿namespace CSharpFundamentals.Core.Models.Payment
 {
-    public class CreditCard : PaymentSystem
+    public class PayPal : PaymentSystem
     {
         public override void ProcessPayment(double amount)
         {
@@ -9,7 +9,6 @@
             {
                 Console.WriteLine("Processing payment via Credit Card...");
             }
-
         }
     }
 }

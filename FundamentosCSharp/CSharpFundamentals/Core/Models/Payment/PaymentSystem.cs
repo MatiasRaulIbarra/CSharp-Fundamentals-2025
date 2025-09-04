@@ -1,4 +1,4 @@
-﻿namespace CSharpFundamentals.Models.Payment
+﻿namespace CSharpFundamentals.Core.Models.Payment
 {
     public class PaymentSystem
     {

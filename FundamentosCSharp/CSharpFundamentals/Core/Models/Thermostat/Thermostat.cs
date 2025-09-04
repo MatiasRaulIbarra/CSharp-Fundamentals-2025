@@ -1,10 +1,10 @@
-﻿namespace CSharpFundamentals.Models
+﻿namespace CSharpFundamentals.Core.Models.Thermostat
 {
     public class Thermostat
     {
         private double _currentTemperature;
 
-         
+
         public Thermostat()
         {
             _currentTemperature = 15.0;
@@ -15,16 +15,16 @@
             return _currentTemperature;
         }
 
-        public  void IncreaseTemperature(double amout)
+        public void IncreaseTemperature(double amout)
         {
 
             double newTemperature = _currentTemperature + amout;
-            if(amout > 30)
+            if (amout > 30)
             {
                 _currentTemperature = 30;
                 Console.WriteLine("Temperature set to maximun (30°C).");
-               
-               
+
+
             }
             else
             {
@@ -33,7 +33,7 @@
 
         }
 
-        public void DecreaseTemperature (double amout)
+        public void DecreaseTemperature(double amout)
         {
             double newTemperature = _currentTemperature - amout;
             if (newTemperature < 10)

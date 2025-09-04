@@ -1,10 +1,9 @@
-﻿
-namespace CSharpFundamentals.Models
+﻿namespace CSharpFundamentals.Core.Models.ATM
 {
     public class BankAccount
     {
         public string AccountNumber { get; set; }
-        public decimal Balance {  get; protected set; }
+        public decimal Balance { get; protected set; }
 
 
         public void Deposit(decimal amount)
@@ -18,10 +17,10 @@ namespace CSharpFundamentals.Models
             Balance += amount;
 
             Console.WriteLine($"Success: Deposit of ${Balance} was successful.New balance is:{Balance}");
-            
+
         }
 
-        public virtual void Withdraw(decimal amount )
+        public virtual void Withdraw(decimal amount)
         {
             if (amount <= 0)
             {

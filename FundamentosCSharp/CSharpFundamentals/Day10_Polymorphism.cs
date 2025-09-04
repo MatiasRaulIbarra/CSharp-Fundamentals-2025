@@ -1,5 +1,6 @@
-﻿using CSharpFundamentals.Models;
-using CSharpFundamentals.Models.Payment;
+﻿using CSharpFundamentals.Core.Models;
+using CSharpFundamentals.Core.Models.Animals;
+using CSharpFundamentals.Core.Models.Payment;
 
 namespace CSharpFundamentals
 {
