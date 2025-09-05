@@ -28,7 +28,7 @@
                 Console.WriteLine("Invalid number.Please try again");
             }
 
-            
+
         }
 
 
@@ -41,7 +41,7 @@
             if (!string.IsNullOrEmpty(inputUser))
             {
                 string textToLower = inputUser.ToLower();
-                for (int i = 0;i < textToLower.Length; i++)
+                for (int i = 0; i < textToLower.Length; i++)
                 {
 
                     char c = textToLower[i];
@@ -51,8 +51,6 @@
                     }
                 }
             }
-
-
 
 
             Console.WriteLine($"The number of vowels in the input is: {vowelCount}");

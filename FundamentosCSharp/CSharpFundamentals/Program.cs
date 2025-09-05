@@ -24,9 +24,11 @@ while (true)
     Console.WriteLine("15. Day 9:Bank Account (Inheritence)");
     Console.WriteLine("16. Day 9:Employee exercise(Inherintence)");
     Console.WriteLine("17. Day 10:Animal Sound (Polymorphism)");
-    Console.WriteLine("18. Day 10:Payment System(Polymorphism)");    
+    Console.WriteLine("18. Day 10:Payment System(Polymorphism)");
     Console.WriteLine("19. Day 11:The Data Reader(Interfaces)");
-    Console.WriteLine("20. Day 11:Eelectric & Combustion Vehicles(Interfaces)");
+    Console.WriteLine("20. Day 11:Electric & Combustion Vehicles(Interfaces)");
+    Console.WriteLine("21. Day 12:Geometric Shapes System(AbstractClass & Static Method) ");
+    Console.WriteLine("22. Day 13:Static Data Validator(AbstractClass & Static Method)");
     Console.WriteLine("--------------------------");
     Console.WriteLine("0. Exit Program");
     Console.WriteLine("--------------------------");
@@ -78,7 +80,7 @@ while (true)
                 Day7_ForLoop.VowelCounterForEach();
                 break;
             case 13:
-                Day8_ConstructorsAndEncapsulation.ExecuteUserProfile(); 
+                Day8_ConstructorsAndEncapsulation.ExecuteUserProfile();
                 break;
             case 14:
                 Day8_ConstructorsAndEncapsulation.ExecuteThermostat();
@@ -101,9 +103,15 @@ while (true)
             case 20:
                 Day11_Interfaces.Execute_Electric_CobustionVehicles();
                 break;
+            case 21:
+                Day12_AbstractClassAndStaticMethod.ExecuteShapesSystem();
+                break;
+            case 22:
+                Day12_AbstractClassAndStaticMethod.ExecuteStaticDataValidator();
+                break;
             case 0:
                 Console.WriteLine("Exiting the lab. Goodbye!");
-                return; 
+                return;
             default:
                 Console.WriteLine("Invalid option. Please choose a number from the list.");
                 break;
