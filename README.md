@@ -20,3 +20,4 @@ This repository contains my daily practice and exercises for my intensive C# and
   * **Day 9 (Sep 2):** Inheritance & Polymorphism.
   * **Day 10(Sep 3):** Polymorphism
   * **Day 11(sep 4):** Interfaces
+  * **Day 12(sep 5):** Abstract class & Static method
