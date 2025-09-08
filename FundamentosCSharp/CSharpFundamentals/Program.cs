@@ -28,7 +28,9 @@ while (true)
     Console.WriteLine("19. Day 11:The Data Reader(Interfaces)");
     Console.WriteLine("20. Day 11:Electric & Combustion Vehicles(Interfaces)");
     Console.WriteLine("21. Day 12:Geometric Shapes System(AbstractClass & Static Method) ");
-    Console.WriteLine("22. Day 13:Static Data Validator(AbstractClass & Static Method)");
+    Console.WriteLine("22. Day 12:Static Data Validator(AbstractClass & Static Method)");
+    Console.WriteLine("23. Day 13:Product inventory(Array)");
+    Console.WriteLine("24. Day 13: Game Ranking(Array)");
     Console.WriteLine("--------------------------");
     Console.WriteLine("0. Exit Program");
     Console.WriteLine("--------------------------");
@@ -108,6 +110,12 @@ while (true)
                 break;
             case 22:
                 Day12_AbstractClassAndStaticMethod.ExecuteStaticDataValidator();
+                break;
+            case 23:
+                Day13_Array.ExecuteProductInventory();
+                break;
+            case 24:
+                Day13_Array.ExecuteGameRanking();
                 break;
             case 0:
                 Console.WriteLine("Exiting the lab. Goodbye!");
