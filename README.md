@@ -25,3 +25,4 @@ This repository contains my daily practice and exercises for my intensive C# and
 * **Week 3: Deep Dive into OOP**
   * **Day 13(Sep 8):** Array.
   * **Day 14(Sep 9):** Collections(List<T>).
+  * **Day 15(Sep 10):** ExceptionHandling.
