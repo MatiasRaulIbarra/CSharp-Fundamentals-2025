@@ -30,7 +30,9 @@ while (true)
     Console.WriteLine("21. Day 12:Geometric Shapes System(AbstractClass & Static Method) ");
     Console.WriteLine("22. Day 12:Static Data Validator(AbstractClass & Static Method)");
     Console.WriteLine("23. Day 13:Product inventory(Array)");
-    Console.WriteLine("24. Day 13: Game Ranking(Array)");
+    Console.WriteLine("24. Day 13:Game Ranking(Array)");
+    Console.WriteLine("25. Day 14:Music Playlist Manager(Collections(List<T>))");
+    Console.WriteLine("26. Day 14:User-Entered Numbers(Collections(List<T>)");
     Console.WriteLine("--------------------------");
     Console.WriteLine("0. Exit Program");
     Console.WriteLine("--------------------------");
@@ -116,6 +118,12 @@ while (true)
                 break;
             case 24:
                 Day13_Array.ExecuteGameRanking();
+                break;
+            case 25:
+                Day14_Collections_ListT_.ExecuteMusicPlaylistManager();
+                break;
+            case 26:
+                Day14_Collections_ListT_.UserEnteredNumbers();
                 break;
             case 0:
                 Console.WriteLine("Exiting the lab. Goodbye!");
