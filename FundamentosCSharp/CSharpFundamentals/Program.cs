@@ -33,6 +33,8 @@ while (true)
     Console.WriteLine("24. Day 13:Game Ranking(Array)");
     Console.WriteLine("25. Day 14:Music Playlist Manager(Collections(List<T>))");
     Console.WriteLine("26. Day 14:User-Entered Numbers(Collections(List<T>)");
+    Console.WriteLine("27. Day 15:Account Withdrawal(ExceptionsHandling)");
+    Console.WriteLine("28. Day 15:Age Validator(ExceptionsHandling)");
     Console.WriteLine("--------------------------");
     Console.WriteLine("0. Exit Program");
     Console.WriteLine("--------------------------");
@@ -124,6 +126,12 @@ while (true)
                 break;
             case 26:
                 Day14_Collections_ListT_.UserEnteredNumbers();
+                break;
+            case 27:
+                Day15_ExceptionsHandling.ExecuteAccountWithdrawal();
+                break;
+            case 28:
+                Day15_ExceptionsHandling.ExecuteAgeValidator();
                 break;
             case 0:
                 Console.WriteLine("Exiting the lab. Goodbye!");
