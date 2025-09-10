@@ -18,9 +18,10 @@ This repository contains my daily practice and exercises for my intensive C# and
 * **Week 2: Deep Dive into OOP**
   * **Day 8 (Sep 1):** Constructors & Encapsulation.
   * **Day 9 (Sep 2):** Inheritance & Polymorphism.
-  * **Day 10(Sep 3):** Polymorphism
-  * **Day 11(sep 4):** Interfaces
-  * **Day 12(sep 5):** Abstract class & Static method
+  * **Day 10(Sep 3):** Polymorphism.
+  * **Day 11(sep 4):** Interfaces.
+  * **Day 12(sep 5):** Abstract class & Static method.
     
 * **Week 3: Deep Dive into OOP**
-  * **Day 13(Sep 8):** Array
+  * **Day 13(Sep 8):** Array.
+  * **Day 14(Sep 9):** Collections(List<T>).
