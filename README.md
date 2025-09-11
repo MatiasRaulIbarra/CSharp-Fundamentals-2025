@@ -15,14 +15,15 @@ This repository contains my daily practice and exercises for my intensive C# and
     * **Day 6 (Aug 28):** Control Flow with `do-while` loops.
     * **Day 7 (Aug 29):** Control Flow with `for` and `foreach` loops.
 
-* **Week 2: Deep Dive into OOP**
+* **Week 2: Deep Dive into OOP 1**
   * **Day 8 (Sep 1):** Constructors & Encapsulation.
   * **Day 9 (Sep 2):** Inheritance & Polymorphism.
   * **Day 10(Sep 3):** Polymorphism.
   * **Day 11(sep 4):** Interfaces.
   * **Day 12(sep 5):** Abstract class & Static method.
     
-* **Week 3: Deep Dive into OOP**
+* **Week 3: Deep Dive into OOP 2**
   * **Day 13(Sep 8):** Array.
   * **Day 14(Sep 9):** Collections(List<T>).
   * **Day 15(Sep 10):** ExceptionHandling.
+  * **Day 16(Sep 11):** LINQ
