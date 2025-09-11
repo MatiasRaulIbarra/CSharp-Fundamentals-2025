@@ -35,6 +35,8 @@ while (true)
     Console.WriteLine("26. Day 14:User-Entered Numbers(Collections(List<T>)");
     Console.WriteLine("27. Day 15:Account Withdrawal(ExceptionsHandling)");
     Console.WriteLine("28. Day 15:Age Validator(ExceptionsHandling)");
+    Console.WriteLine("29. Day 16:Car Data Management(LINQ)");
+    Console.WriteLine("30. Day 16:Product Price Analysis(LINQ)");
     Console.WriteLine("--------------------------");
     Console.WriteLine("0. Exit Program");
     Console.WriteLine("--------------------------");
@@ -132,6 +134,12 @@ while (true)
                 break;
             case 28:
                 Day15_ExceptionsHandling.ExecuteAgeValidator();
+                break;
+            case 29:
+                Day16_LINQ.ExecuteCarDataManagement();
+                break;
+            case 30:
+                Day16_LINQ.ExecuteProductPriceAnalysis();
                 break;
             case 0:
                 Console.WriteLine("Exiting the lab. Goodbye!");
