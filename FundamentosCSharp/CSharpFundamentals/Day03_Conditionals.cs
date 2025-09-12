@@ -1,6 +1,6 @@
 ﻿namespace CSharpFundamentals
 {
-    public static class Day3_Conditionals
+    public static class Day03_Conditionals
     {
 
 

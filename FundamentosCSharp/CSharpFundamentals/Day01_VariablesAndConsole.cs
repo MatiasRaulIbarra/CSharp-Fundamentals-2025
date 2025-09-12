@@ -1,7 +1,7 @@
 ﻿
 namespace CSharpFundamentals
 {
-    public static  class Day1_VariablesAndConsole
+    public static  class Day01_VariablesAndConsole
     {
         public  static  void Ejecutar()
         {

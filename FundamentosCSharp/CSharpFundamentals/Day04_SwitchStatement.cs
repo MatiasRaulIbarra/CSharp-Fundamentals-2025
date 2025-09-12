@@ -1,6 +1,6 @@
 ﻿namespace CSharpFundamentals
 {
-    public static class Day4_SwitchStatement
+    public static class Day04_SwitchStatement
     {
 
         public static void EvaluateDayOfWeek()

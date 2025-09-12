@@ -3,7 +3,7 @@ using CSharpFundamentals.Core.Models.User;
 
 namespace CSharpFundamentals
 {
-    public static class Day9_Inheritance
+    public static class Day09_Inheritance
     {
 
         public static void ExecuteBankAccountExercise()

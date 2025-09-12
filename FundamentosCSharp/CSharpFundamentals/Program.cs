@@ -51,53 +51,53 @@ while (true)
         switch (option)
         {
             case 1:
-                Day1_VariablesAndConsole.Ejecutar();
+                Day01_VariablesAndConsole.Ejecutar();
                 break;
             case 2:
-                Day2_OperatorsAndMethods.Ejecutar();
+                Day02_OperatorsAndMethods.Ejecutar();
                 break;
 
             case 3:
-                Day3_Conditionals.EvaluateGrade();
+                Day03_Conditionals.EvaluateGrade();
                 break;
             case 4:
-                Day3_Conditionals.CreditEvaluator();
+                Day03_Conditionals.CreditEvaluator();
                 break;
             case 5:
-                Day4_SwitchStatement.EvaluateDayOfWeek();
+                Day04_SwitchStatement.EvaluateDayOfWeek();
                 break;
             case 6:
-                Day4_SwitchStatement.EvaluateSeasonsSouthernHemisphere();
+                Day04_SwitchStatement.EvaluateSeasonsSouthernHemisphere();
                 break;
             case 7:
-                Day5_WhileLoop.GuessTheNumber();
+                Day05_WhileLoop.GuessTheNumber();
                 break;
             case 8:
-                Day6_DoWhileLoop.PersistentOptionMenu();
+                Day06_DoWhileLoop.PersistentOptionMenu();
                 break;
             case 9:
-                Day6_DoWhileLoop.CumulativeSum();
+                Day06_DoWhileLoop.CumulativeSum();
                 break;
             case 10:
-                Day7_ForLoop.FactorialCalculator();
+                Day07_ForLoop.FactorialCalculator();
                 break;
             case 11:
-                Day7_ForLoop.VowelCounter();
+                Day07_ForLoop.VowelCounter();
                 break;
             case 12:
-                Day7_ForLoop.VowelCounterForEach();
+                Day07_ForLoop.VowelCounterForEach();
                 break;
             case 13:
-                Day8_ConstructorsAndEncapsulation.ExecuteUserProfile();
+                Day08_ConstructorsAndEncapsulation.ExecuteUserProfile();
                 break;
             case 14:
-                Day8_ConstructorsAndEncapsulation.ExecuteThermostat();
+                Day08_ConstructorsAndEncapsulation.ExecuteThermostat();
                 break;
             case 15:
-                Day9_Inheritance.ExecuteBankAccountExercise();
+                Day09_Inheritance.ExecuteBankAccountExercise();
                 break;
             case 16:
-                Day9_Inheritance.ExecuteEmployee();
+                Day09_Inheritance.ExecuteEmployee();
                 break;
             case 17:
                 Day10_Polymorphism.ExecuteAnimalSound();

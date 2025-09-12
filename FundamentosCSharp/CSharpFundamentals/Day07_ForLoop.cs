@@ -1,6 +1,6 @@
 ﻿namespace CSharpFundamentals
 {
-    public static class Day7_ForLoop
+    public static class Day07_ForLoop
     {
 
 

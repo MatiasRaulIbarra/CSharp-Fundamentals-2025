@@ -1,6 +1,6 @@
 ﻿namespace CSharpFundamentals
 {
-    public static class Day2_OperatorsAndMethods
+    public static class Day02_OperatorsAndMethods
     {
         public class Book
         {

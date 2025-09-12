@@ -2,7 +2,7 @@
 
 namespace CSharpFundamentals
 {
-    public static class Day5_WhileLoop
+    public static class Day05_WhileLoop
     {
         public static void FibonacciSequence()
         {

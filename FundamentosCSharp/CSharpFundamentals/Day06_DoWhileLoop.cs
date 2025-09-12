@@ -1,6 +1,6 @@
 ﻿namespace CSharpFundamentals
 {
-    public static class Day6_DoWhileLoop
+    public static class Day06_DoWhileLoop
     {
         public static void PersistentOptionMenu()
         {

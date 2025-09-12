@@ -3,7 +3,7 @@ using CSharpFundamentals.Core.Models.UserProfile;
 
 namespace CSharpFundamentals
 {
-    public static class Day8_ConstructorsAndEncapsulation
+    public static class Day08_ConstructorsAndEncapsulation
     {
 
         public static void ExecuteUserProfile()
