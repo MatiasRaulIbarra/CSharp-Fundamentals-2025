@@ -41,6 +41,7 @@ while (true)
     Console.WriteLine("32. Day 17:Temperature Alert System(Delegate & Events)");
     Console.WriteLine("33. Day 18:To-Do List Management(Filehandling & JSON)");
     Console.WriteLine("34. Day 18:AppSettings Configuration(Filehandling & JSON)");
+    Console.WriteLine("35. Day 19:Email Sender(SOLID Principle(SRP))");
     Console.WriteLine("--------------------------");
     Console.WriteLine("0. Exit Program");
     Console.WriteLine("--------------------------");
@@ -156,6 +157,9 @@ while (true)
                 break;
             case 34:
                 Day18_FileHandlingAnd_JSONSerialization.ExecuteApplicationConfiguration();
+                break;
+            case 35:
+                Day19_SOLID_Principles__SRP_.ExecuteEmailSender(); 
                 break;
             case 0:
                 Console.WriteLine("Exiting the lab. Goodbye!");
