@@ -28,3 +28,4 @@ This repository contains my daily practice and exercises for my intensive C# and
   * **Day 15(Sep 10):** ExceptionHandling.
   * **Day 16(Sep 11):** LINQ
   * **Day 17(Sep 12):** Delegates & Events(Publisher-Subscriber Pattern)
+  * **Day 18(Sep 15):** File Handling & JSON Serialization.
