@@ -37,8 +37,10 @@ while (true)
     Console.WriteLine("28. Day 15:Age Validator(ExceptionsHandling)");
     Console.WriteLine("29. Day 16:Car Data Management(LINQ)");
     Console.WriteLine("30. Day 16:Product Price Analysis(LINQ)");
-    Console.WriteLine("31. Day 17: File Processor(Delegates & Events)");
-    Console.WriteLine("32. Day 17: Temperature Alert System(Delegate & Events)");
+    Console.WriteLine("31. Day 17:File Processor(Delegates & Events)");
+    Console.WriteLine("32. Day 17:Temperature Alert System(Delegate & Events)");
+    Console.WriteLine("33. Day 18:To-Do List Management(Filehandling & JSON)");
+    Console.WriteLine("34. Day 18:AppSettings Configuration(Filehandling & JSON)");
     Console.WriteLine("--------------------------");
     Console.WriteLine("0. Exit Program");
     Console.WriteLine("--------------------------");
@@ -148,6 +150,12 @@ while (true)
                 break;
             case 32:
                 Day17_DelegatesAndEvents.ExecuteTemperatureSensor();
+                break;
+            case 33:
+                Day18_FileHandlingAnd_JSONSerialization.ExecuteTODOlIST();
+                break;
+            case 34:
+                Day18_FileHandlingAnd_JSONSerialization.ExecuteApplicationConfiguration();
                 break;
             case 0:
                 Console.WriteLine("Exiting the lab. Goodbye!");
