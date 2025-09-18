@@ -42,6 +42,8 @@ while (true)
     Console.WriteLine("33. Day 18:To-Do List Management(Filehandling & JSON)");
     Console.WriteLine("34. Day 18:AppSettings Configuration(Filehandling & JSON)");
     Console.WriteLine("35. Day 19:Email Sender(SOLID Principle(SRP))");
+    Console.WriteLine("36. Day 20:SOLID Priciple OCP");
+    Console.WriteLine("37. Day 20:SOLID Principle LSP");
     Console.WriteLine("--------------------------");
     Console.WriteLine("0. Exit Program");
     Console.WriteLine("--------------------------");
@@ -160,6 +162,12 @@ while (true)
                 break;
             case 35:
                 Day19_SOLID_Principles__SRP_.ExecuteEmailSender(); 
+                break;
+            case 36:
+                Day20_SOLID_Principles.ExecuteSOLID_PricipleOCP();
+                break;
+            case 37:
+                Day20_SOLID_Principles.ExecuteSOLID_PricipleLSP();
                 break;
             case 0:
                 Console.WriteLine("Exiting the lab. Goodbye!");
