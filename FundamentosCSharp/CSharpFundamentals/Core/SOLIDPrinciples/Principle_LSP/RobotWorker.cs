@@ -3,7 +3,7 @@ using CSharpFundamentals.Core.Interfaces.SOLIDPrinciples;
 
 namespace CSharpFundamentals.Core.SOLIDPrinciples.Principle_LSP
 {
-    public class RobotWorker : Iworker  ,IWorkeable
+    public class RobotWorker :IWorkeable
     {
         // <summary>
         /// This class violates the **Interface Segregation Principle (ISP)** because the Iworker interface
@@ -13,7 +13,12 @@ namespace CSharpFundamentals.Core.SOLIDPrinciples.Principle_LSP
         /// be safely substituted for a generic Iworker without breaking the program (it would throw an exception
         /// if a method tried to make the robot eat or sleep).
         /// </summary>
-        public void Eat()
+       
+        
+        
+        //The Intefaces segregation  Principle consist on  not  using  unnecessary interfaces
+        
+        /* public void Eat()
         {
             throw new NotImplementedException();
         }
@@ -26,7 +31,7 @@ namespace CSharpFundamentals.Core.SOLIDPrinciples.Principle_LSP
         public void Work()
         {
             Console.WriteLine("Robot is working.");
-        }
+        }*/
 
         public void WorkLSP()
         {

@@ -44,6 +44,7 @@ while (true)
     Console.WriteLine("35. Day 19:Email Sender(SOLID Principle(SRP))");
     Console.WriteLine("36. Day 20:SOLID Priciple OCP");
     Console.WriteLine("37. Day 20:SOLID Principle LSP");
+    Console.WriteLine("38. Day 21:SOLID Principle DIP");
     Console.WriteLine("--------------------------");
     Console.WriteLine("0. Exit Program");
     Console.WriteLine("--------------------------");
@@ -168,6 +169,9 @@ while (true)
                 break;
             case 37:
                 Day20_SOLID_Principles.ExecuteSOLID_PricipleLSP();
+                break;
+            case 38:
+                Day21_SOLID_Principles.ExecuteSOLID_PricipleDIP();
                 break;
             case 0:
                 Console.WriteLine("Exiting the lab. Goodbye!");
