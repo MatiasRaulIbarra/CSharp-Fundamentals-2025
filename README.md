@@ -31,3 +31,4 @@ This repository contains my daily practice and exercises for my intensive C# and
   * **Day 18(Sep 15):** File Handling & JSON Serialization.
   * **Day 19(Sep 16):** SOLID Principles (SRP)
   * **Day 20(Sep 17):** SOLID Priciples (OCP & LSP)
+  * **Day 21(Sep 18):** SOLID Principles (ISP & DIP)
