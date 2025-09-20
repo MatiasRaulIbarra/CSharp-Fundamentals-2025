@@ -32,3 +32,6 @@ This repository contains my daily practice and exercises for my intensive C# and
   * **Day 19(Sep 16):** SOLID Principles (SRP)
   * **Day 20(Sep 17):** SOLID Priciples (OCP & LSP)
   * **Day 21(Sep 18):** SOLID Principles (ISP & DIP)
+
+* **Week 4: Asynchronous & Advanced C#**
+  * **Day 22(Sep 19):** async/await and the Task Parallel Library
