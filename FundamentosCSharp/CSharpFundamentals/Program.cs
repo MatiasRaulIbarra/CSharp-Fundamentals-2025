@@ -45,6 +45,9 @@ while (true)
     Console.WriteLine("36. Day 20:SOLID Priciple OCP");
     Console.WriteLine("37. Day 20:SOLID Principle LSP");
     Console.WriteLine("38. Day 21:SOLID Principle DIP");
+    Console.WriteLine("39. Day 22:Async/Await TPL");
+    Console.WriteLine("40. Day 22:Sequential Factorial Calculation (Async/Await)");
+    Console.WriteLine("41. Day 22:Processing Factorials in Parallel (TPL)");
     Console.WriteLine("--------------------------");
     Console.WriteLine("0. Exit Program");
     Console.WriteLine("--------------------------");
@@ -172,6 +175,15 @@ while (true)
                 break;
             case 38:
                 Day21_SOLID_Principles.ExecuteSOLID_PricipleDIP();
+                break;
+            case 39:
+                Day22_Async_TPL.Async_TPL();
+                break;
+            case 40:
+                Day22_Async_TPL.ExecuteCalculateFactorial();
+                break;
+            case 41:
+                Day22_Async_TPL.ExecuteProcessFactorialsAsync();
                 break;
             case 0:
                 Console.WriteLine("Exiting the lab. Goodbye!");
